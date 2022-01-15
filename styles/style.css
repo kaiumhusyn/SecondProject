@@ -34,3 +34,51 @@ button {
 }
 
 /* second section  */
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container {
+  background-color: white;
+  width: 1047px;
+  height: 1662px;
+  padding-left: 120px;
+  margin-top: 80px;
+}
+
+/* third section  */
+
+.items {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 30px;
+  grid-row-gap: 30px;
+}
+
+.item .item-banner img {
+  width: 300px;
+  height: 256px;
+  border-radius: 5px;
+}
+
+.item-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.fa-star {
+  font-size: 16px;
+}
+
+.fa-star.filled {
+  color: #fb8200;
+}
+.fa-star.empty {
+  color: #aeaeae;
+}
+#more {
+  text-align: right;
+}
