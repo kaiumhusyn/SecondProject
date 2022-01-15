@@ -1,0 +1,36 @@
+/* fonts  */
+@import url("https://fonts.googleapis.com/css2?family=Oswald&family=Poppins:wght@400;500&display=swap");
+
+/* common style  */
+body {
+  font-family: "Oswald", sans-serif;
+  font-family: "Poppins", sans-serif;
+}
+
+h3 {
+  padding-left: 120px;
+  padding-top: 87px;
+}
+
+section {
+  display: flex;
+}
+
+.half-width {
+  width: 50%;
+  padding: 120px;
+}
+
+.half-width img {
+  width: 440px;
+  height: 414px;
+}
+button {
+  width: 196px;
+  height: 44px;
+  border-radius: 41px;
+  color: white;
+  background-color: #e02c6d;
+}
+
+/* second section  */
